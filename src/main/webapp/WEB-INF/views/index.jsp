@@ -12,6 +12,6 @@
     <title>Homepage</title>
 </head>
 <body>
-    <h1>Witaj na stronie Gabinetu Fizjoterapii</h1>
+    <h1>Gabinet Fizjoterapii</h1>
 </body>
 </html>
