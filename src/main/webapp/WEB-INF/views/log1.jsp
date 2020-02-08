@@ -1,3 +1,4 @@
+<%--
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ taglib prefix="spring" uri="http://www.springframework.org/tags" %>
 <html>
@@ -6,11 +7,11 @@
 </head>
 <body>
     <form method="post" action="waliduj.jsp">
-        Podaj swój login: <br/>
+        Login: <br/>
         <input type="text" name="name" /><br/>
-        Podaj swoje hasło: <br/>
+        Password: <br/>
         <input type="text" name="password" /><br/>
         <input type="submit" value="zaloguj">
     </form>
 </body>
-</html>
+</html>--%>

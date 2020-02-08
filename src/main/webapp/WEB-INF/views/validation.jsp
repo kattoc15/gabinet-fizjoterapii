@@ -1,8 +1,9 @@
+<%--
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ taglib prefix="spring" uri="http://www.springframework.org/tags" %>
 <html>
 <head>
-    <title>Walidacja</title>
+    <title>validation</title>
 </head>
 <body>
     <jsp:useBean id="user" class="pl.coderslab.gabinet_fizjoterapii.entity.User"
@@ -10,12 +11,12 @@
     <jsp:setProperty name="user" property="*" />
     <jsp:useBean id="dataSource" class="pl.coderslab.gabinet_fizjoterapii.entity.DataSource"
     scope="session"></jsp:useBean>
-    Nazwa: <%= user.getName() %> <br/>
-    <% String result = "Niepoprawne dane";
+    Name: <%= user.getName() %> <br/>
+    <% String result = "Wrong data";
     if (dataSource.userExists(user)) {
-        result = "Poprawny loghin i hasło";
+        result = "login and password correct";
     }
     %>
     <%= result%>
 </body>
-</html>
+</html>--%>
