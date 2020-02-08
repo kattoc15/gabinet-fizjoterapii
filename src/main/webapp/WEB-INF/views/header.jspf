@@ -1,0 +1,28 @@
+<%--
+  Created by IntelliJ IDEA.
+  User: kattoc
+  Date: 28/01/2022
+  Time: 22:58
+  To change this template use File | Settings | File Templates.
+--%>
+
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<html>
+<head>
+    <title>header</title>
+</head>
+<body>
+<h2>header part</h2>
+<a href="/">Homepage</a>
+<a href="/reserve">Book</a>
+
+<c:if test="${!cookie.containsKey('log')}">
+
+    <a href="/person/register">Sign up</a>
+    <a href="/person/login">Log in</a>
+
+</c:if>
+
+</body>
+</html>
